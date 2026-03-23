@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flowguard-py"
+version = "0.1.0"
+description = "Smart task orchestrator with automatic state management and fault tolerance."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "JustPy Team", email = "contact@justpy.team"}]
+keywords = ["orchestrator", "pipeline", "circuit-breaker", "asyncio", "fault-tolerance"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    # Если есть внешние зависимости, например redis
+    # "redis>=4.0.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/YOUR_USERNAME/flowguard"
+Repository = "https://github.com/YOUR_USERNAME/flowguard.git"
